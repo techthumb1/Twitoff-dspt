@@ -9,7 +9,7 @@ migrate = Migrate()
 class User(db.Model):
     id = db.Column(db.Integer, primary_key=True)
     name = db.Column(db.String(128), nullable=False)
-r
+
 class Tweet(db.Model):
     id = db.Column(db.Integer, primary_key=True)
     text = db.Column(db.String(128), nullable=False)
