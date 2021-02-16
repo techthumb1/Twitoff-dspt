@@ -11,6 +11,10 @@ python-dotenv = "*"
 requests = "*"
 tweepy = "*"
 spacy = "*"
+scikit-learn = "*"
+jinja2 = "*"
+psycopg2-binary = "*"
+gunicorn = "*"
 
 [dev-packages]
 
